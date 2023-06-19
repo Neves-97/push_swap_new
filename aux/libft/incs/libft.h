@@ -6,7 +6,7 @@
 /*   By: roda-min <roda-min@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 17:14:45 by roda-min          #+#    #+#             */
-/*   Updated: 2022/11/07 20:51:41 by roda-min         ###   ########.fr       */
+/*   Updated: 2023/06/19 16:43:16 by roda-min         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 
 typedef struct s_list
 {
+	int				value;
 	void			*content;
 	struct s_list	*next;
 }				t_list;

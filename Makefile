@@ -17,6 +17,10 @@ FLAGS    := -Wall -Wextra -Werror
 SRCS        :=      operations.c \
                           utils.c \
                           push_op.c \
+                          reverse_rotate_op.c \
+                          rotate_op.c \
+                          swap_op.c \
+                          sort_stacks.c \
                           aux/ft_printf/src/ft_flags.c \
                           aux/ft_printf/src/ft_printf_x.c \
                           aux/ft_printf/src/ft_printf_c.c \
